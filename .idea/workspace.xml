@@ -12,127 +12,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40265f42-908d-4d34-81c5-881dfa1588a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaxHeader/autograde.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaxHeader/grader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autograde.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autograder.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/estimate" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/train" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.15.3/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.15.3/CMakeRCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.15.3/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.15.3/CompilerIdC/a.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/Makefile2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/untitled.dir/C.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/untitled.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/untitled.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/untitled.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/untitled.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/untitled.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/untitled.dir/estimate.c.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/untitled.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/untitled.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/untitled.dir/linklibs.rsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/untitled.dir/objects.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/untitled.dir/objects1.rsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/untitled.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/untitled.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/untitled.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release-wsl/CMakeFiles/untitled.dir/C.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release-wsl/CMakeFiles/untitled.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release-wsl/CMakeFiles/untitled.dir/estimate.c.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data.00.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/data.01.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/data.02.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/data.03.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/data.04.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/data.05.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/data.06.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/data.07.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/data.08.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/data.09.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/ref.00.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/ref.01.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/ref.02.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/ref.03.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/ref.04.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/ref.05.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/ref.06.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/ref.07.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/ref.08.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/ref.09.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/train.00.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/train.01.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/train.02.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/train.03.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/train.04.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/train.05.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/train.06.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/train.07.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/train.08.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/train.09.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PaxHeader/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PaxHeader/estimate.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train.00.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/estimate.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/estimate.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/untitled.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/untitled.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-wsl/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-wsl/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-wsl/CMakeFiles/3.10.2/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-wsl/CMakeFiles/3.10.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-wsl/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-wsl/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-wsl/CMakeFiles/CMakeError.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-wsl/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-wsl/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-wsl/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-wsl/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-wsl/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-wsl/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-wsl/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-wsl/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-wsl/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-wsl/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-wsl/CMakeFiles/untitled.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-wsl/CMakeFiles/untitled.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-wsl/CMakeFiles/untitled.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-wsl/CMakeFiles/untitled.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-wsl/CMakeFiles/untitled.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-wsl/CMakeFiles/untitled.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-wsl/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-wsl/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-wsl/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-wsl/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-wsl/untitled" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-wsl/untitled" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-wsl/untitled.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-wsl/untitled.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/estimate" beforeDir="false" afterPath="$PROJECT_DIR$/estimate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/estimate.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/estimate.c" afterDir="false" />
-    </list>
+    <list default="true" id="40265f42-908d-4d34-81c5-881dfa1588a5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -179,6 +59,11 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="dynamic.analysis.tools.valgrind" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\djwon\CLionProjects\pa2\src" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="untitled" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="untitled" TARGET_NAME="untitled" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="untitled" RUN_TARGET_NAME="untitled">
       <method v="2">
@@ -201,12 +86,24 @@
       <workItem from="1584084021240" duration="316000" />
       <workItem from="1584138184585" duration="3555000" />
       <workItem from="1584141893441" duration="9603000" />
-      <workItem from="1584165269681" duration="8533000" />
+      <workItem from="1584165269681" duration="9229000" />
     </task>
+    <task id="LOCAL-00001" summary="finished">
+      <created>1584173827736</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584173827736</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="350" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584165647018">
@@ -221,6 +118,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="718" y="391" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1584138430954" />
+    <state x="544" y="114" key="CommitChangelistDialog2" timestamp="1584173826431">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="544" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584173826431" />
     <state width="391" height="466" key="DebuggerActiveHint" timestamp="1584150149987">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -229,22 +130,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="279" y="437" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584141042048" />
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1584173494991">
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1584174509793">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584173494991" />
-    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1584173494991">
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584174509793" />
+    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1584174509793">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584173494991" />
-    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1584173494990">
+    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584174509793" />
+    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1584174509793">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584173494990" />
-    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1584173494991">
+    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584174509793" />
+    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1584174509793">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584173494991" />
+    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584174509793" />
     <state width="1877" height="343" key="GridCell.Tab.1.bottom" timestamp="1584173401570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -265,6 +166,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="460" y="325" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584166161348" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1584173830124">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584173830124" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1584169978588">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
