@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define debug 1
+#define debug 0
 
 double *transpose(double *x1, double *x1t, int numHouses, int numAtt) {
     int i = 0;
@@ -12,9 +12,9 @@ double *transpose(double *x1, double *x1t, int numHouses, int numAtt) {
         for (j = 0; j < numHouses; j++) {
             num = *(x1 + j * (numAtt + 1) + i);
             *(x1t + i * (numHouses) + j) = num;
-            //printf("%.0f ", *(x1t + i * (numHouses) + j));
+            ////printf("%f ", *(x1t + i * (numHouses) + j));
         }
-        //printf("\n");
+        ////printf("\n");
     }
     return x1t;
 }
@@ -31,7 +31,13 @@ double *multiply(double *x1t, double *x1, double *product, int rows1, int cols1,
                 h++;
             }
             *(product + j * cols2 + k) = sum;
-            //printf("%.0f ", sum);
+            ////printf("%f ", sum);
+        }
+        ////printf("\n");
+    }
+    for (j = 0; j < rows1; j++) {
+        for (k = 0; k < cols2; k++) {
+            //printf("%f ", *(product + j * cols2 + k));
         }
         //printf("\n");
     }
@@ -58,39 +64,50 @@ double *invert(double *M, double *N, int cols) {
             f = *(M + i * cols + p);
             j = 0;
             for (j = 0; j < cols; j++) {
-                *(M + i*cols + j) -= *(M + p*cols + j) * f;
-                *(N + i*cols + j) -= *(N + p*cols + j) * f;
+                *(M + i * cols + j) -= (*(M + p * cols + j) * f);
+                *(N + i * cols + j) -= (*(N + p * cols + j) * f);
             }
         }
     }
     for (p = cols - 1; p >= 0; p--) {
-        for (i = p -1; i >= 0; i--) {
-            f = *(M + i*cols + p);
+        for (i = p - 1; i >= 0; i--) {
+            f = *(M + i * cols + p);
             int j = 0;
             for (j = 0; j < cols; j++) {
-                *(M + i*cols + j) -= *(M + p*cols + j) * f;
-                *(N + i*cols + j) -= *(N + p*cols + j) * f;
+                *(M + i * cols + j) -= (*(M + p * cols + j) * f);
+                *(N + i * cols + j) -= (*(N + p * cols + j) * f);
             }
         }
     }
     i = 0;
     j = 0;
+    for (j = 0; j < cols; j++) {
+        for (i = 0; i < cols; i++) {
+            //printf("%f ", *(M + j * cols + i));
+        }
+        //printf("\n");
+    }
+    for (j = 0; j < cols; j++) {
+        for (i = 0; i < cols; i++) {
+            //printf("%f ", *(N + j * cols + i));
+        }
+        //printf("\n");
+    }
 
     return N;
 }
 
 int main(int argc, char *argv[]) {
-
     FILE *f1 = NULL;
     FILE *f2 = NULL;
     if (!debug) {
         f1 = fopen(argv[1], "r");
         f2 = fopen(argv[2], "r");
     } else {
-        f1 = fopen("./train.txt", "r");
-        f2 = fopen("./data.txt", "r");
+        f1 = fopen("C:\\Users\\djwon\\CLionProjects\\pa2\\train.00.txt", "r");
+        f2 = fopen("C:\\Users\\djwon\\CLionProjects\\pa2\\data.00.txt", "r");
     }
-    printf("File loaded \n");
+    //printf("File loaded \n");
     char word1[20];
     char word2[20];
     fscanf(f1, "%s", word1);
@@ -104,8 +121,8 @@ int main(int argc, char *argv[]) {
         train = f2;
         data = f1;
     }
-    printf("Words scanned\n");
-    
+    //printf("Words scanned\n");
+
     int numAtt = 0;
     fscanf(train, "%d", &numAtt);
     int numHouses = 0;
@@ -126,17 +143,19 @@ int main(int argc, char *argv[]) {
                 fscanf(train, "%lf", &number);
                 *(x1 + i * (cols) + j) = number;
             }
-            //printf("%.0f ", *(x1 + i * (cols) + j));
+            //printf("%f ", *(x1 + i * (cols) + j));
         }
         //printf("\n");
         fscanf(train, "%lf", &number);
         *(y1 + i) = number;
     }
-    printf("Matrix made\n");
+    //printf("Matrix made\n");
+
+
     x1t = transpose(x1, x1t, numHouses, numAtt);
     double *product = (double *) (malloc(sizeof(double) * (cols) * (cols)));
     product = multiply(x1t, x1, product, cols, numHouses, numHouses, cols);
-    printf("Multiplied\n");
+    //printf("Multiplied\n");
     free(x1);
     x1 = NULL;
     double *identity = (double *) (malloc(sizeof(double) * cols * cols));
@@ -149,33 +168,48 @@ int main(int argc, char *argv[]) {
 
         }
     }
-    double *inverse = invert(product, identity, cols);
-    printf("Inverted\n");
+    identity = invert(product, identity, cols);
+    //printf("Inverted\n");
     free(product);
-    product = (double *)(malloc(sizeof(double)*cols*numHouses));
-    printf("Malloced product\n");
-    product = multiply(inverse, x1t, product, cols, cols, cols, numHouses);
-    printf("Producted\n");
-    //free(x1t);
-    free(inverse);
-    double *W = (double *)(malloc(sizeof(double)*cols));
+    product = (double *) (malloc(sizeof(double) * cols * numHouses));
+    //printf("Malloced product\n");
+    product = multiply(identity, x1t, product, cols, cols, cols, numHouses);
+    //printf("Producted\n");
+    free(x1t);
+    x1t = NULL;
+    double *W = (double *) (malloc(sizeof(double) * cols));
     W = multiply(product, y1, W, cols, numHouses, numHouses, 1);
-    printf("Found W");
+    //printf("Found W\n");
+    free(x1);
+    free(y1);
+    free(x1t);
+    free(product);
+    free(identity);
+
+
     fscanf(data, "%d", &numAtt);
     fscanf(data, "%d", &numHouses);
-    double *x2 = (double *) (malloc(sizeof(double) * (numAtt) * numHouses));
+    double *x2 = (double *) (malloc(sizeof(double) * (numAtt+1) * numHouses));
     for (i = 0; i < numHouses; i++) {
-        for (j = 0; j < (numAtt); j++) {
-            fscanf(data, "%lf", &number);
-            *(x2 + i * (numAtt) + j) = number;
-            //printf("%.0f ", *(x2 + i * (numAtt) + j));
+        for (j = 0; j < (numAtt + 1); j++) {
+            if (j == 0) {
+                *(x2 + i * (numAtt+1) + j) = 1;
+            } else {
+                fscanf(data, "%lf", &number);
+                *(x2 + i * (numAtt+1) + j) = number;
+            }
+            //printf("%f ", *(x2 + i * (numAtt+1) + j));
         }
         //printf("\n");
     }
-    double *y2 = (double *)(malloc(sizeof(double) * numHouses));
-    y2 = multiply(x2, W, y2, numHouses, numAtt+1, cols, 1);
+    //printf("x prime made\n");
+    double *y2 = (double *) (malloc(sizeof(double) * numHouses));
+    y2 = multiply(x2, W, y2, numHouses, numAtt + 1, cols, 1);
     for (j = 0; j < numHouses; j++) {
-            printf("%.0f ", *(y2 + j));
+        printf("%.0f\n", *(y2 + j));
     }
+    free(x2);
+    free(W);
+    free(y2);
     return 0;
 }

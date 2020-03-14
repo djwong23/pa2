@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/mnt/c/Users/djwon/CLionProjects/pa3/cmake-build-release-wsl"/>
+				<Option working_dir="/mnt/c/Users/djwon/CLionProjects/pa2/cmake-build-release-wsl"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/djwon/CLionProjects/pa3/cmake-build-release-wsl/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/djwon/CLionProjects/pa3/cmake-build-release-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/djwon/CLionProjects/pa3/cmake-build-release-wsl/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/djwon/CLionProjects/pa3/cmake-build-release-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/djwon/CLionProjects/pa2/cmake-build-release-wsl/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/djwon/CLionProjects/pa2/cmake-build-release-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/djwon/CLionProjects/pa2/cmake-build-release-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/djwon/CLionProjects/pa2/cmake-build-release-wsl/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/mnt/c/Users/djwon/CLionProjects/pa3/cmake-build-release-wsl"/>
+				<Option working_dir="/mnt/c/Users/djwon/CLionProjects/pa2/cmake-build-release-wsl"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/djwon/CLionProjects/pa3/cmake-build-release-wsl/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/djwon/CLionProjects/pa3/cmake-build-release-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/djwon/CLionProjects/pa3/cmake-build-release-wsl/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/djwon/CLionProjects/pa3/cmake-build-release-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/djwon/CLionProjects/pa2/cmake-build-release-wsl/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/djwon/CLionProjects/pa2/cmake-build-release-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/djwon/CLionProjects/pa2/cmake-build-release-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/djwon/CLionProjects/pa2/cmake-build-release-wsl/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="untitled">
-				<Option output="/mnt/c/Users/djwon/CLionProjects/pa3/cmake-build-release-wsl/untitled" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/djwon/CLionProjects/pa3/cmake-build-release-wsl"/>
+				<Option output="/mnt/c/Users/djwon/CLionProjects/pa2/cmake-build-release-wsl/untitled" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/djwon/CLionProjects/pa2/cmake-build-release-wsl"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -41,15 +41,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/djwon/CLionProjects/pa3/cmake-build-release-wsl/Makefile&quot;  VERBOSE=1 untitled"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/djwon/CLionProjects/pa3/cmake-build-release-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/djwon/CLionProjects/pa3/cmake-build-release-wsl/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/djwon/CLionProjects/pa3/cmake-build-release-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/djwon/CLionProjects/pa2/cmake-build-release-wsl/Makefile&quot;  VERBOSE=1 untitled"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/djwon/CLionProjects/pa2/cmake-build-release-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/djwon/CLionProjects/pa2/cmake-build-release-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/djwon/CLionProjects/pa2/cmake-build-release-wsl/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="untitled/fast">
-				<Option output="/mnt/c/Users/djwon/CLionProjects/pa3/cmake-build-release-wsl/untitled" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/djwon/CLionProjects/pa3/cmake-build-release-wsl"/>
+				<Option output="/mnt/c/Users/djwon/CLionProjects/pa2/cmake-build-release-wsl/untitled" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/djwon/CLionProjects/pa2/cmake-build-release-wsl"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -61,27 +61,27 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/djwon/CLionProjects/pa3/cmake-build-release-wsl/Makefile&quot;  VERBOSE=1 untitled/fast"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/djwon/CLionProjects/pa3/cmake-build-release-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/djwon/CLionProjects/pa3/cmake-build-release-wsl/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/djwon/CLionProjects/pa3/cmake-build-release-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/djwon/CLionProjects/pa2/cmake-build-release-wsl/Makefile&quot;  VERBOSE=1 untitled/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/djwon/CLionProjects/pa2/cmake-build-release-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/djwon/CLionProjects/pa2/cmake-build-release-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/djwon/CLionProjects/pa2/cmake-build-release-wsl/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/mnt/c/Users/djwon/CLionProjects/pa3/cmake-build-release-wsl"/>
+				<Option working_dir="/mnt/c/Users/djwon/CLionProjects/pa2/cmake-build-release-wsl"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/djwon/CLionProjects/pa3/cmake-build-release-wsl/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/djwon/CLionProjects/pa3/cmake-build-release-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/djwon/CLionProjects/pa3/cmake-build-release-wsl/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/djwon/CLionProjects/pa3/cmake-build-release-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/djwon/CLionProjects/pa2/cmake-build-release-wsl/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/djwon/CLionProjects/pa2/cmake-build-release-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/djwon/CLionProjects/pa2/cmake-build-release-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/djwon/CLionProjects/pa2/cmake-build-release-wsl/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/c/Users/djwon/CLionProjects/pa3/estimate.c">
+		<Unit filename="/mnt/c/Users/djwon/CLionProjects/pa2/estimate.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/djwon/CLionProjects/pa3/CMakeLists.txt">
+		<Unit filename="/mnt/c/Users/djwon/CLionProjects/pa2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -1,4 +1,4 @@
-/usr/bin/cmake -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles" /mnt/c/Users/djwon/CLionProjects/pa3
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles" /mnt/c/Users/djwon/CLionProjects/pa2
 -- Configuring done
 -- Generating done
--- Build files have been written to: /mnt/c/Users/djwon/CLionProjects/pa3/cmake-build-release-wsl
+-- Build files have been written to: /mnt/c/Users/djwon/CLionProjects/pa2/cmake-build-release-wsl
