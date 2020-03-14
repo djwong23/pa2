@@ -87,11 +87,12 @@ int main(int argc, char *argv[]) {
         f1 = fopen(argv[1], "r");
         f2 = fopen(argv[2], "r");
     } else {
-        f1 = fopen("C:\\Users\\djwon\\CLionProjects\\pa3\\train.txt", "r");
-        f2 = fopen("C:\\Users\\djwon\\CLionProjects\\pa3\\data.txt", "r");
+        f1 = fopen("./train.txt", "r");
+        f2 = fopen("./data.txt", "r");
     }
-    char word1[10];
-    char word2[10];
+    printf("File loaded \n");
+    char word1[20];
+    char word2[20];
     fscanf(f1, "%s", word1);
     fscanf(f2, "%s", word2);
     FILE *train = NULL;
@@ -103,6 +104,8 @@ int main(int argc, char *argv[]) {
         train = f2;
         data = f1;
     }
+    printf("Words scanned\n");
+    
     int numAtt = 0;
     fscanf(train, "%d", &numAtt);
     int numHouses = 0;
@@ -129,9 +132,11 @@ int main(int argc, char *argv[]) {
         fscanf(train, "%lf", &number);
         *(y1 + i) = number;
     }
+    printf("Matrix made\n");
     x1t = transpose(x1, x1t, numHouses, numAtt);
     double *product = (double *) (malloc(sizeof(double) * (cols) * (cols)));
     product = multiply(x1t, x1, product, cols, numHouses, numHouses, cols);
+    printf("Multiplied\n");
     free(x1);
     x1 = NULL;
     double *identity = (double *) (malloc(sizeof(double) * cols * cols));
@@ -145,13 +150,17 @@ int main(int argc, char *argv[]) {
         }
     }
     double *inverse = invert(product, identity, cols);
+    printf("Inverted\n");
     free(product);
-    product = (double *)(malloc(sizeof(double)*cols*cols));
+    product = (double *)(malloc(sizeof(double)*cols*numHouses));
+    printf("Malloced product\n");
     product = multiply(inverse, x1t, product, cols, cols, cols, numHouses);
+    printf("Producted\n");
     //free(x1t);
-    //free(inverse);
+    free(inverse);
     double *W = (double *)(malloc(sizeof(double)*cols));
     W = multiply(product, y1, W, cols, numHouses, numHouses, 1);
+    printf("Found W");
     fscanf(data, "%d", &numAtt);
     fscanf(data, "%d", &numHouses);
     double *x2 = (double *) (malloc(sizeof(double) * (numAtt) * numHouses));
@@ -165,7 +174,6 @@ int main(int argc, char *argv[]) {
     }
     double *y2 = (double *)(malloc(sizeof(double) * numHouses));
     y2 = multiply(x2, W, y2, numHouses, numAtt+1, cols, 1);
-    int k = 0;
     for (j = 0; j < numHouses; j++) {
             printf("%.0f ", *(y2 + j));
     }
