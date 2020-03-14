@@ -1,0 +1,3 @@
+/mnt/c/Users/djwon/CLionProjects/pa3/cmake-build-release-wsl/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/djwon/CLionProjects/pa3/cmake-build-release-wsl/CMakeFiles/untitled.dir
+/mnt/c/Users/djwon/CLionProjects/pa3/cmake-build-release-wsl/CMakeFiles/edit_cache.dir
